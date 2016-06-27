@@ -1,0 +1,32 @@
+/* Empty. Add your own CSS if you like */
+.submenu {
+	border: none;
+}	
+.submenu .item-content {
+	padding: 6px 0px 6px 16px;
+}
+.userbutton {
+	margin-left: 30px;
+}
+.post-index .item-content {
+	padding: 0px;
+	height: 40px;
+}
+.post-index .image-thumb {
+	position: absolute;
+	height: 40px;
+}
+.post-index .ng-binding {
+	margin-left: 80px;
+}
+.post-detail h1 {
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: -10px;
+}
+.post-detail p {
+	padding: 5px;
+}
+.post-detail img {
+	width:100%;
+}

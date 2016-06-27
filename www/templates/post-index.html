@@ -1,0 +1,11 @@
+<ion-view view-title="{{portfoliocat}}">
+  <ion-content>
+    <ion-list>
+      <ion-item class="post-index" ng-repeat="post in posts" href="#/app/post/{{post.id}}">
+      	<!--<div image-thumb></div>--><!--example of directive "imageThumb"-->
+      	<img class="image-thumb" src="{{post.attachments[0].url}}" >
+        <span ng-bind-html="post.title"></span>        
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
